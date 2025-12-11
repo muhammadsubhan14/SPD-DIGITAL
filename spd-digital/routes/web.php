@@ -14,7 +14,7 @@ Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
 // Proses login
 Route::post('/login', [AuthController::class, 'login']);
 
-// Tampilkan form register
+// register
 Route::get('/register', [AuthController::class, 'showRegister'])->name('register');
 
 // Proses register
